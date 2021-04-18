@@ -19,8 +19,7 @@ class MonthlyRecharge extends Command
      *
      * @var string
      */
-    protected $description = 'Scheduled command to recharge user credit on every start of the month
-    ';
+    protected $description = 'Scheduled command to recharge user credit on every start of the month';
 
     /**
      * Create a new command instance.

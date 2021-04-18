@@ -24,7 +24,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('monthly:recharge')->monthly();
+        $schedule->command('monthly:recharge')->monthly()->runInBackground();
     }
 
     /**
